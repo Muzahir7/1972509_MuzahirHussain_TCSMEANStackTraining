@@ -1,0 +1,38 @@
+.divClass{
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.tableClass{
+    border: 5px solid black;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+.tdClass{
+    text-align: center;
+    color: blue;
+    border-bottom: 1px solid rgb(83, 78, 78);
+}
+
+.thClass{
+    background-color: #ebaa20;
+    color: white;
+    border-bottom: 1px solid rgb(83, 78, 78);
+}
+
+.formClass{
+    text-align: left;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+.h1Class{
+    background-color: green;
+    color: white;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+}
