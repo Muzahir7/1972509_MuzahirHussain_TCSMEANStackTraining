@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="simplyBlogging.js"></script>
+    <link rel="stylesheet" href="simplyBlogging.css"/>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand">Simply Blogging</a>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup"></div>
+            <div class="navbar-nav">
+              <a class="nav-link active" href="#">Add Blog</a>
+              <a class="nav-link active" href="#">Home</a>
+              <a class="nav-link active" href="#">About Us</a>
+              <a class="nav-link active" href="#">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <div class="divy">
+        <form>
+            <label>Title:</label><br/>
+            <input type="text" name="title" id="title" style="width: 20%; max-width: 100%;" ><br/>
+            <label>Description:</label><br/>
+            <textarea type="text" name="desc" id="desc" style="width: 20%; max-width: 100%;"></textarea><br/>
+            <label>Image URL:</label><br/>
+            <input type="text" name="image" id="image" style="width: 20%; max-width: 100%;"><br/><br/>
+            <input type="button" value="Add Blog" onclick="addBlog()" />
+            <input type="reset" value="Clear">
+
+        </form>
+    </div>
+
+    <div id="container">
+
+    </div>
+</body>
+</html>

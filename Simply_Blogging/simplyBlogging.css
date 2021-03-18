@@ -1,0 +1,44 @@
+.divy{
+    border-radius: 5px;
+    background-color: #ca994f;
+    padding: 20px;
+  }
+
+.h1{
+    margin: 20px;
+    color: blue;
+    background-color: yellowgreen;
+    text-align: center;
+}
+
+.par{
+    margin: 20px;
+    color: black;
+}
+
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+input[type=button] {
+    background-color: greenyellow;
+    border-radius: 5px;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=reset] {
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
