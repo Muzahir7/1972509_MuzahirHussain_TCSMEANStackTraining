@@ -1,0 +1,37 @@
+<div>
+    <div class="myDiv">
+        <h2>My Portfolio</h2>
+        <h3>Welcome {{user}}</h3>
+        <form #contactData="ngForm" class="form-horizontal">
+            <label class="control-label col-sm-2">Contact Name:</label>
+            <div class="col-sm-2">
+                <input class="form-control" type="text" name="contact" ngModel/><br/>
+            </div>
+            <label class="control-label col-sm-2">Phone No.:</label>
+            <div class="col-sm-2">
+                <input class="form-control" type="number" name="phone" ngModel/><br/>
+            </div>
+            <div class="col-sm-2">
+                <input class="form-control" type="button" value="Save"
+                (click)="saveContact(contactData.value)"/><br/>
+            </div>
+            <div class="col-sm-2">
+                <input class="form-control" type="reset" value="Reset"/>
+            </div>
+        </form>
+    </div>
+    <div class="myDiv">
+        <br/>
+        <h2>Contact Details</h2>
+        <table class="table table-bordered">
+            <tr>
+                <th>Name</th>
+                <th>Phone No.</th>
+            </tr>
+            <tr *ngFor="let con of contacts">
+                <td>{{con.contact}}</td>
+                <td>{{con.phone}}</td>
+            </tr>
+        </table>
+    </div>
+</div>

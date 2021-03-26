@@ -1,0 +1,22 @@
+<div class="myDiv">
+    <h2>Login Form</h2>
+    <form #loginData="ngForm" class="form-horizontal">
+        <label class="control-label col-sm-2">Username:</label>
+        <div class="col-sm-2">
+            <input class="form-control" type="text" name="user" ngModel/><br/>
+        </div>
+        <label class="control-label col-sm-2">Password:</label>
+        <div class="col-sm-2">
+            <input class="form-control" type="password" name="pass" ngModel/><br/>
+        </div>
+        <div class="col-sm-2">
+            <input class="form-control" type="button" value="Login"
+            (click)="verifyUser(loginData.value)"/><br/>
+        </div>
+        <div class="col-sm-2">
+            <input class="form-control" type="reset" value="Reset"/>
+        </div>
+    </form>
+    <br/>
+    <a routerLink="/signup">Sign Up</a>
+</div>

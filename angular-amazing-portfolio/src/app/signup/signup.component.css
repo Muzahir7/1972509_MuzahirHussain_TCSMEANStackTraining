@@ -1,0 +1,7 @@
+.myDiv {
+    border: 5px outset red;
+    background-color: lightblue;
+    padding: 50px;
+    border-width: 5px;
+    border-radius: 20px;
+  }

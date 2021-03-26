@@ -1,0 +1,30 @@
+<div class=myDiv>
+    <h2>Registration Form</h2>
+    <a routerLink="/login">Login</a>
+    <form #signupData="ngForm" class="form-horizontal">
+        <label class="control-label col-sm-2">First Name:</label>
+        <div class="col-sm-2">
+            <input class="form-control" type="text" name="fname" ngModel/><br/>
+        </div>
+        <label class="control-label col-sm-2">Last Name:</label>
+        <div class="col-sm-2">
+            <input class="form-control" type="text" name="lname" ngModel/><br/>
+        </div>
+        <label class="control-label col-sm-2">Username:</label>
+        <div class="col-sm-2">
+            <input class="form-control" type="text" name="user" ngModel/><br/>
+        </div>
+        <label class="control-label col-sm-2">Password:</label>
+        <div class="col-sm-2">
+            <input class="form-control" type="password" name="pass" ngModel/><br/>
+        </div>
+        <div class="col-sm-2">
+            <input class="form-control" type="button" value="Register"
+            (click)="register(signupData.value)"/><br/>
+        </div>
+        <div class="col-sm-2">
+            <input class="form-control" type="reset" value="reset"/>
+        </div>
+
+    </form>
+</div>
