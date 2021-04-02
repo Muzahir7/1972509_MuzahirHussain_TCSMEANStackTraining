@@ -1,0 +1,12 @@
+[
+    {"id":1, "question":"What type of animal is a seahorse?", "op1":"Crustacean", "op2":"Arachnid", "op3":"Fish", "op4":"Shell", "ans":"Fish"},
+    {"id":2, "question":"Which of the following dog breeds is the smallest?", "op1":"Dachshund", "op2":"Poodle", "op3":"Pomeranian", "op4":"Chihuahua", "ans":"Chihuahua"},
+    {"id":3, "question":"What color are zebras?", "op1":"White with black stripes", "op2":"Black with white stripes", "op3":"Both of the above", "op4":"None of the above", "ans":"Black with white stripes"},
+    {"id":4, "question":"What existing bird has the largest wingspan?", "op1":"Stork", "op2":"Swan", "op3":"Condor", "op4":"Albatross", "ans":"Albatross"},
+    {"id":5, "question":"What is the biggest animal that has ever lived?", "op1":"Blue whale", "op2":"African elephant", "op3":"Apatosaurus (aka Brontosaurus)", "op4":"Spinosaurus", "ans":"Blue whale"},
+    {"id":6, "question":"Fill in the blank: Out of these pets, there are the most pet _____ in the U.S.", "op1":"Birds", "op2":"Cats", "op3":"Dogs", "op4":"Horses", "ans":"Cats"},
+    {"id":7, "question":"Which of these animals lives the longest?", "op1":"Ocean quahog (clam)", "op2":"Red sea urchin", "op3":"Galapagos tortoise", "op4":"Rougheye rockfish", "ans":"Ocean quahog (clam)"},
+    {"id":8, "question":"What are female elephants called?", "op1":"Mares", "op2":"Sows", "op3":"Cows", "op4":"Dams", "ans":"Cows"},
+    {"id":9, "question":"Which of the following animals sleeps standing up?", "op1":"Gorillas", "op2":"Flamingos", "op3":"Hedgehogs", "op4":"Ravens", "ans":"Flamingos"},
+    {"id":10, "question":"What is the fastest water animal?", "op1":"Porpoise", "op2":"Sailfish", "op3":"Flying fish", "op4":"Tuna", "ans":"Sailfish"}
+]

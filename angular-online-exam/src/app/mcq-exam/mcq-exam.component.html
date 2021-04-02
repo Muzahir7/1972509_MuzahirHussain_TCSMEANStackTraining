@@ -1,0 +1,23 @@
+<div class="myDiv">
+    <h2>Online Exam Application</h2>
+    <input type="button" class="button" value="Start Quiz" (click)="startQuiz()"/>
+    <br/>
+    <hr/>
+    <div class="innerDiv" *ngFor="let ex of exam; let i = index">
+        <p>{{ex.id}}: {{ex.question}}</p> 
+        <input type="radio" id="{{ex.id}}" #idRef name="{{ex.question}}" value="{{ex.op1}}" #op1Ref (change)="saveAnswer(op1Ref.value, idRef.id)">
+        <label for="{{ex.op1}}">{{ex.op1}}</label><br>
+        <input type="radio" id="{{ex.id}}" #idRef name="{{ex.question}}" value="{{ex.op2}}" #op2Ref (change)="saveAnswer(op2Ref.value, idRef.id)">
+        <label for="{{ex.op2}}">{{ex.op2}}</label><br>
+        <input type="radio" id="{{ex.id}}" #idRef name="{{ex.question}}" value="{{ex.op3}}" #op3Ref (change)="saveAnswer(op3Ref.value, idRef.id)">
+        <label for="{{ex.op3}}">{{ex.op3}}</label><br>
+        <input type="radio" id="{{ex.id}}" #idRef name="{{ex.question}}" value="{{ex.op4}}" #op4Ref (change)="saveAnswer(op4Ref.value, idRef.id)">
+        <label for="{{ex.op4}}">{{ex.op4}}</label><br>
+        <p class="{{color[i]}}">{{msges[i]}}</p>
+        <hr/>
+    </div>
+    <br/>
+    <h3 class="{{scoreColor}}">{{resMsg}}</h3>
+    <br/>
+    <input type="button" class="button" value="Submit Quiz" (click)="submitQuiz()"/>
+</div>

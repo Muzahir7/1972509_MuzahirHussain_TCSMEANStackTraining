@@ -1,0 +1,35 @@
+.correct{
+    color: green;
+}
+
+.wrong{
+    color: red;
+}
+
+.myDiv {
+    border: 5px outset rgb(241, 180, 9);
+    background-color: lightblue;
+    padding: 50px;
+    border-width: 5px;
+    border-radius: 20px;
+  }
+
+  .innerDiv {
+    border: 5px outset rgb(99, 164, 248);
+    background-color: rgb(224, 229, 145);
+    padding: 50px;
+    border-width: 5px;
+    border-radius: 20px;
+  }
+
+  .button {
+    background-color: rgb(28, 180, 155);
+    border: 50px;
+    border-radius: 50%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
